@@ -18,6 +18,11 @@
     height:40px;
     
 }
+.filmyname{
+    position:absolute;
+    top:28px;
+    left:33px;
+}
 
 .sidefooter{
     position: absolute;
