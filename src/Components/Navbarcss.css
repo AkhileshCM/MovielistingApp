@@ -12,6 +12,13 @@
     /* z-index: 3; */
     
 }
+.filmylogo{
+    position:relative;
+    width:95px;
+    height:40px;
+    
+}
+
 .sidefooter{
     position: absolute;
     width: 100%;
