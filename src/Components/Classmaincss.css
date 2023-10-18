@@ -1,0 +1,15 @@
+.mainbody::-webkit-scrollbar{
+    display: none;
+}
+.catrailwrapper{
+    margin-top: 50vh;
+    height: 100vh;
+    width: fit-content;
+    padding: 0px;
+    
+}
+@media only screen and (min-height: 1080px ) {
+    .catrailwrapper{
+        margin-top: 35vh;
+    }
+  }

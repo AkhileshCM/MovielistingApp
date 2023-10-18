@@ -1,0 +1,124 @@
+.sidenav{
+    /* max-width: max-content; */
+    
+    color: white;
+    height: 100vh;
+    position: fixed;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #4d4c4c;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    
+    /* z-index: 3; */
+    
+}
+.sidefooter{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+   
+ 
+    
+    
+
+}
+
+/* .sidefooter ul{
+    list-style-type: none;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+} */
+/* .sidefooter li{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+} */
+
+.sidefooter i:hover + .llinkto{
+    display: block;
+    color: orangered;
+    transition-duration: .001ms;
+}
+.bottomnav{
+    position: absolute;
+    padding: 0px;
+    bottom: 10px;
+}
+.links{
+    margin-top: 8vh;
+    height: 70vh;
+    position: relative;
+
+}
+.logo{
+    
+    margin-bottom: 15px;
+    padding: 0px;
+    border-bottom: 2px solid yellow;
+    height: fit-content;
+}
+/* .link-title{
+    color: red;
+} */
+.links ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 0px;
+    gap: 30px;
+    
+}
+.links a{
+    text-decoration: none;
+    color: #D9981E;
+    font-size: 16px;
+    display: none;
+   
+}
+.links li{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    align-items: center;
+}
+.links i{
+    font-size: 1.7em;
+    opacity: .8;
+    
+    
+    
+}
+.links i:hover {
+    color: #D9981E;
+    cursor: pointer;
+}
+
+.links i:hover + .linkto{
+    display: block;
+    color: orangered;
+    transition-duration: .001ms;
+}
+.links p{
+    text-align:left;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    
+}
+@media only screen and (min-height: 982px) and (max-height:1070px ) {
+    .sidefooter{
+        position: relative;
+        margin-top: 8px;
+    }
+  }
+@media only screen and (min-height: 1080px ) {
+    .links{
+        height: 45vh;
+    }
+  }
+

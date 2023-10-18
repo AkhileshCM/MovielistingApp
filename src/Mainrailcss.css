@@ -1,0 +1,88 @@
+ .mainrails{
+    
+    /* position:static; */
+    
+     margin-left:180px;
+     
+     position: relative;
+    /* position: fixed; */
+    /* margin-top: 550px;  */
+    width:100%;
+    height: fit-content;
+    color: white;
+    padding: 5px;
+
+}
+.mainrails h2{
+    width: fit-content;
+}
+.noresults{
+    height: 40px;
+    position: absolute;
+    left: 180px;
+    top: 0px;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-size: x-large;
+color: bisque;
+}
+
+
+.poster{
+    
+    display: flex;
+    
+    flex-wrap: nowrap;
+    width: 90vw;
+    position: relative;
+    min-width: 200px;
+    overflow-x: auto;
+    height: fit-content;
+    
+    gap:20px;
+    
+
+}
+.poster::-webkit-scrollbar{
+    display: none;
+}
+.postercover{
+  
+    flex: 0 0 auto;
+}
+
+.poster img{
+    width: 150px;
+    height:220px;
+    
+    
+}
+.wrap{
+    
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 83vw;
+    
+    transform: translateY(-300px);
+    box-sizing: border-box;
+    transition: transform .7s ease;
+    
+}
+.poster2 img{
+    width: 150px;
+    height:200px;
+    border-radius: 5px;
+}
+@media only screen and (min-height: 1080px ) {
+    .wrap{
+        width: 70vw;
+    }
+    .poster2 img{
+        width: 100px;
+        height: 150px;
+    }
+  }
+
+
