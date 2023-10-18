@@ -25,9 +25,9 @@ function NavbarSide(props) {
     return (
         <div className='sidenav'>
             <div className='logo'>
-                <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT-MQePzPRdHivtV7cpcCLIyigupdzqMxRUqxSlz0rPxtQFHW2Q"
+                <img className="filmylogo" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT-MQePzPRdHivtV7cpcCLIyigupdzqMxRUqxSlz0rPxtQFHW2Q"
     >
-        <p>FILMY TV</p>
+        <p className="filmyname">FILMY TV</p>
         
             </div>
             <div className='links'>
