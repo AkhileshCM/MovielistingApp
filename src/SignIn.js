@@ -4,8 +4,8 @@ import {TbPassword} from "react-icons/tb"
 import {BiUser} from "react-icons/bi"
 import { useNavigate } from 'react-router-dom';
 function SignIn(props) {
-    const [username,setusername]=useState("")
-    const [password,setpassword]=useState("")
+    const [username,setusername]=useState("abcd")
+    const [password,setpassword]=useState("abcd")
     const userinp=(e)=>{
         setusername(e.target.value)
 
@@ -61,12 +61,12 @@ function SignIn(props) {
 
   <div class="form__field">
     <label for="login__username"><BiUser/></label>
-    <input onChange={userinp}  id="login__username" type="text" name="username" class="form__input" placeholder="Username" on required=""></input>
+    <input onChange={userinp} value="abcd"  id="login__username" type="text" name="username" class="form__input" placeholder="Username" on required=""></input>
   </div>
 
   <div class="form__field">
     <label for="login__password"><TbPassword/></label>
-    <input onChange={userpass}  id="login__password" type="password" name="password" class="form__input" placeholder="Password" required=""></input>
+    <input onChange={userpass} value="abcd"  id="login__password" type="password" name="password" class="form__input" placeholder="Password" required=""></input>
   </div>
 
   <div class="form__field">
