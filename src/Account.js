@@ -14,11 +14,11 @@ function Account(props) {
     
     const favouritemovielist=JSON.parse(localStorage.getItem("favmovie"))
     const moviearray=JSON.parse(localStorage.getItem("mov"))
-    const raillist=moviearray.filter(obj=>obj["title"].includes (favouritemovielist))
+    const raillist=moviearr.filter(obj=>obj["title"].includes (favouritemovielist))
     console.log(raillist)
     const todetail=(e)=>{
         const obj={moviedetail:[e.target.id,e.target.name],
-        movielist:moviearray,
+        movielist:moviearr,
     }
           nav2('/details',{state:obj})
     }
