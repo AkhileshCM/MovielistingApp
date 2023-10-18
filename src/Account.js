@@ -14,6 +14,7 @@ function Account(props) {
     
     const favouritemovielist=JSON.parse(localStorage.getItem("favmovie"))
     const moviearray=JSON.parse(localStorage.getItem("movarr"))
+    console.log(moviearray)
     const raillist=moviearray.filter(obj=>obj["title"].includes (favouritemovielist))
     console.log(raillist)
     const todetail=(e)=>{
