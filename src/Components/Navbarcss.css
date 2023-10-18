@@ -13,14 +13,19 @@
     
 }
 .filmylogo{
+    
+    
     position:relative;
     width:95px;
     height:40px;
     
 }
 .filmyname{
+    margin:0px;
+    padding:0px;
+    font-size:10px;
     position:absolute;
-    top:28px;
+    top:36px;
     left:33px;
 }
 
