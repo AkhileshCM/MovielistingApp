@@ -161,7 +161,7 @@ const trailernav=useNavigate()
                                  </div>)
                                  }</div>
                                  <div className='plot'>
-                                     <h5><span>Plot: </span>{obj['plot']}</h5>
+                                     <h5 id="plotid"><span>Plot: </span>{obj['plot']}</h5>
                                      <h5><span>Director: </span>{obj['director']}</h5>
                                      <h5><span>Actors: </span>{obj['actors']}</h5>
 
