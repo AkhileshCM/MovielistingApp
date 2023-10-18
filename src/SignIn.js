@@ -61,12 +61,12 @@ function SignIn(props) {
 
   <div class="form__field">
     <label for="login__username"><BiUser/></label>
-    <input onChange={userinp} id="login__username" type="text" name="username" class="form__input" placeholder="Username" on required=""></input>
+    <input onChange={userinp} value="abcd" id="login__username" type="text" name="username" class="form__input" placeholder="Username" on required=""></input>
   </div>
 
   <div class="form__field">
     <label for="login__password"><TbPassword/></label>
-    <input onChange={userpass} id="login__password" type="password" name="password" class="form__input" placeholder="Password" required=""></input>
+    <input onChange={userpass} value="abcd" id="login__password" type="password" name="password" class="form__input" placeholder="Password" required=""></input>
   </div>
 
   <div class="form__field">
