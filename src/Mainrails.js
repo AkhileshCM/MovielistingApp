@@ -32,8 +32,8 @@ function Mainrails(props) {
     console.log(searchvalue);
     const lsearchvalue=searchvalue.toLowerCase()
     const filtered_on_input=getdata.filter(objj=>{
-        const spaceremovedtext=objj['title'].split(" ").join("");
-        const lowercased=spaceremovedtext.toLowerCase();
+        //const spaceremovedtext=objj['title'].split(" ").join("");
+        const lowercased=objj['title'].toLowerCase();
         if(lsearchvalue.length==0){
              flag=1;
         }
