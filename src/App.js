@@ -20,15 +20,7 @@ function App() {
   console.log(islogg)
   const [isloggedin,setisloggedin]=useState(islogg)
  console.log(isloggedin)
-  
-  
-   
-  return(
-    
-      
-      
-    
-      <Routes>
+   return(<Routes>
         <Route path='/' element={<SignIn/>}/>
         <Route path='/home' element={<Protected isloggedin={isloggedin} >
              <Maincontainer />
@@ -40,11 +32,8 @@ function App() {
         <Route path='/romance' element={<Romance/>}/>
         <Route path='/favourites' element={<Favourites/>}/>
         <Route path='/searchpage' element={<Searchpage/>}/>
-        
       </Routes>
-    
-    
-  )
+   )
 }
 
 export default App;
