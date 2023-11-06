@@ -2,7 +2,7 @@ import { Navigate } from "react-router-dom";
 const Protected = ({ isloggedin, children }) => {
     console.log('isloggedin', isloggedin)
     
-    if (true) {
+    if (isloggedin) {
       console.log('true');
     return children;
         
