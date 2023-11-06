@@ -91,8 +91,11 @@ function Mainrails(props) {
                         padding:"0px",
                         margin:"0px",
                         width:"150px",
-                        display:"flex",
-                        flexWrap:"wrap"
+                        whiteSpace:'nowrap',
+                        textOverflow:'ellipsis',
+                        overflow:'hidden'
+                        // display:"flex",
+                        // flexWrap:"wrap"
                     }}
                     >{oc['title']}</h4>
                          </div>
